@@ -33,7 +33,25 @@ nav ul li a {
     text-overflow:clip;
 }
 
-p{
-    color: red;
-    background-color: blue;
+.intro h2{
+    ;
+}
+.intro p{
+    color:;
+    background-color:;
+    
+    font-size: 1.25em;
+    
+}
+
+.intro {
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: ;
+    text-align:;
+    height: 864px;
+    width: 500px;
+    border-style:solid;
+    border-color: black;
+    margin-left: 200px;
 }
