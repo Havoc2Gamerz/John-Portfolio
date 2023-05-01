@@ -12,9 +12,10 @@ body {
 img {
     max-width: 100%;
 }
+
 nav {
+    
     background-color: #ffffff;
-    font-size: 1em;
     padding: 3vh 3vw 3vh 3vw;
     font-family: 'Times New Roman';
 }
@@ -26,20 +27,20 @@ nav ul {
     text-align: center;
 }
 
-
 nav ul li a { 
+    
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-overflow:clip;
+    font-size: x-large;
 }
 
 .intro h2{
-    ;
+    
 }
 .intro p{
     color:;
     background-color:;
-    
     font-size: 1.25em;
     
 }
@@ -47,11 +48,13 @@ nav ul li a {
 .intro {
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    width: ;
-    text-align:;
+    display:flex;
+    align-items:;
+    justify-content: ;
     height: 864px;
-    width: 500px;
+    width: 1000px;
     border-style:solid;
     border-color: black;
-    margin-left: 200px;
+    margin-left: 500px;
+   
 }
