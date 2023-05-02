@@ -58,3 +58,41 @@ nav ul li a {
     margin-left: 500px;
    
 }
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 15vh;
+    font-size: 20px;
+    margin: auto;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    columns: 200px 3;
+   
+}
+
+.footer-nav,
+.contact {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact p {
+    width: 100%;
+    text-align: center;
+}
+.footer-nav {
+    padding:60px;
+}
+
