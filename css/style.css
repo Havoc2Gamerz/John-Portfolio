@@ -38,6 +38,7 @@ nav ul li a {
 .intro h2{
     
 }
+
 .intro p{
     color:;
     background-color:;
@@ -56,6 +57,7 @@ nav ul li a {
     border-style:solid;
     border-color: black;
     margin-left: 500px;
+    margin-top: 50px;
    
 }
 
@@ -72,6 +74,7 @@ footer a {
     text-decoration: none;
     font-size: 20px;
     columns: 200px 3;
+    justify-content: center;
    
 }
 
@@ -87,6 +90,7 @@ footer a {
 .footer {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 .contact p {
     width: 100%;
