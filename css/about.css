@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* background-color: rgb(196, 196, 196); */
+}
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    
+    background-color: #ffffff;
+    padding: 3vh 3vw 3vh 3vw;
+    font-family: 'Times New Roman';
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav ul li a { 
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-overflow:clip;
+    font-size: x-large;
+}
+
+.pagename {
+    margin-right: 500px;
+}
