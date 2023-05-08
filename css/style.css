@@ -7,6 +7,7 @@
 }
 body {
     overflow-x: hidden;
+    
 }
 
 img {
@@ -53,13 +54,14 @@ nav ul li a {
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     display:flex;
+    flex-wrap:wrap; 
     align-items:;
-    justify-content: ;
+    justify-content:center ;
     height: 864px;
     width: 1000px;
     border-style:solid;
     border-color: black;
-    margin-left: 500px;
+    
     margin-top: 50px;
    
 }
@@ -123,4 +125,5 @@ footer a {
 .footer-nav {
     padding:60px;
 }
+
 
