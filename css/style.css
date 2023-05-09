@@ -26,10 +26,11 @@ nav ul {
     list-style: none;
     justify-content: space-around;
     text-align: center;
+    
 }
 
 nav ul li a { 
-    
+    background-color: grey;
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-overflow:clip;
@@ -59,11 +60,8 @@ nav ul li a {
     justify-content:center ;
     height: 864px;
     width: 1000px;
-    border-style:solid;
-    border-color: black;
-    
     margin-top: 50px;
-   
+   background-color: grey;
 }
 
 main {
