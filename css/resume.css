@@ -50,9 +50,25 @@ main {
 .intro p{
     font-size: x-large;
 }
+h2{
+    font-size: xx-large;
+
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h4{
+    font-size: x-large;
+}
 
 li {
-    font-size: large;
+    font-size: 1.3em;
+}
+
+div {
+    margin:10px;
 }
 
 button {
