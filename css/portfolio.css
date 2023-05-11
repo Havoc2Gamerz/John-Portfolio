@@ -39,6 +39,43 @@ nav ul li a {
     margin-right: 500px;
 }
 
+main {
+    display:flex;
+    flex-wrap:wrap;
+    padding: 2vh 15vw 2vh 15vw;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+
+.box7 {
+    height: 500px;
+    width: 260px;
+    margin: 1%;
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+button a {
+    color:red; 
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
 footer {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
