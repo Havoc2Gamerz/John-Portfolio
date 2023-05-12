@@ -34,7 +34,7 @@ nav ul li a {
     text-decoration: none;
     text-overflow:clip;
     font-size: x-large;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     border-radius: 1em;
 }
 
