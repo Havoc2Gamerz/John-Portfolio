@@ -35,7 +35,6 @@ nav ul li a {
     font-size: x-large;
 }
 
-
 .pagename {
     margin-right: 400px;
 }
@@ -50,7 +49,7 @@ h3 {
 }
 
 .intro p{
-    font-size: 1.25em;
+    font-size: 1.5em;
     width: 400px;
 }
 
@@ -84,22 +83,100 @@ main {
     
 }
 
+
+
 button a {
-    color:red; 
+    color:rgb(0, 0, 0); 
+    text-decoration: none;
 }
 
 button {
-    width: 100px;
-    height: 30px;
-}
-
-.button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(160, 42, 42);
+    width: 205px;
+    height: 55px;
+    background:rgb(255, 255, 255);
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    
+    cursor: pointer;
+    margin-top: 50px; 
+    margin-left: 29px;
+}
+
+.resume {
+    margin-top: 32px;
+}
+
+.port {
+    margin-top: 32px
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    left:0;
+    top:0;
+    width: 0;
+    height: 0;
+    border-top: 2px solid rgb(177, 21, 21);
+    border-right: 2px solid rgb(199, 21, 21);
+    animation: border-top-right 3s infinite alternate;
+  }
+
+@keyframes border-top-right {
+    0%    {width:0px;   height:0px;}
+    25%   {width:200px; height:0px;}
+    50%   {width:200px; height:48px;}
+    100%  {width:200px; height:48px;}
+  }
+
+  button:after {
+    content: "";
+    position: absolute;
+    right:0;
+    bottom:0;
+    width: 0;
+    height: 0;
+    border-bottom:2px solid rgb(188, 47, 47);
+    border-left: 2px solid rgb(171, 39, 39);
+    animation: border-bottom-left 3s infinite alternate;
+  }
+
+  @keyframes border-bottom-left {
+    0%    {width:0px;   height:0px; }
+    50%   {width:0px;   height:0px; }
+    75%   {width:200px; height:0px; }
+    100%  {width:200px; height:48px;}
+  }
+
+  @keyframes border-bottom-left {
+    0%    {width:0px;   height:0px; opacity: 0;}
+    50%   {width:0px;   height:0px; opacity: 0;}
+    50.1% {width:0px;   height:0px; opacity: 1;}
+    75%   {width:200px; height:0px; opacity: 1;}
+    100%  {width:200px; height:48px;opacity: 1;}
+  }
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: large;
+    font-family: 'Times New Roman';
+    margin-top: 200px;
+   
+}
+
+.aboutme a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
 }
 
 footer {
@@ -116,7 +193,7 @@ footer a {
     font-size: 20px;
     display: flex;
     justify-content: space-evenly;
-   width: 100px;
+    width: 100px;
 }
 
 .footer-nav,

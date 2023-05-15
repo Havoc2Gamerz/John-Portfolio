@@ -46,24 +46,10 @@ nav ul li a {
 main {
     margin-left: 20px;
 }
-.intro {
-    margin-top: 30px;
-}
- 
-.intro p{
-    font-size: x-large;
-}
+
 h2{
     font-size: xx-large;
-
-}
-
-h3 {
-    font-size: x-large;
-}
-
-h4{
-    font-size: x-large;
+    margin: 30px;
 }
 
 li {
@@ -72,6 +58,17 @@ li {
 
 div {
     margin: 10px;
+}
+
+.box1 {
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
