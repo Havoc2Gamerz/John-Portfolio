@@ -135,3 +135,12 @@ footer a {
     padding:60px;
 }
 
+.mySlides {display:none;}
+
+.w3-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
